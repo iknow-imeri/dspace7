@@ -1,7 +1,0 @@
-2023-08-25 09:20:17.694 INFO export - 1 @ The script has started
-2023-08-25 09:20:17.709 INFO export - 1 @ Exporting from collection: 09f4d706-2d22-4f5e-89af-81b5d1317666
-2023-08-25 09:20:17.736 INFO export - 1 @ Beginning export
-2023-08-25 09:20:17.743 INFO export - 1 @ Exporting item to 1
-2023-08-25 09:20:17.751 INFO export - 1 @ Exporting Item 5e07d314-1fa3-4c4b-9d7d-ee77f475a903, handle 123456789/5 to C:\dspace\exports\saf-export-98ab268e-93dd-49bb-8d30-8cfd371f79a3.zip\1
-2023-08-25 09:20:17.772 INFO export - 1 @ Attempting to create file C:\dspace\exports\saf-export-98ab268e-93dd-49bb-8d30-8cfd371f79a3.zip\1\dublin_core.xml
-2023-08-25 09:20:18.504 INFO export - 1 @ The script has completed
