@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+           "name": "dspace-angular",
+           "cwd": "C:\\dspace-angular-dspace-7.6",
+           "script": "C:\\dspace-angular-dspace-7.6\\dist\\server\\main.js",
+           "instances": "max",
+           "args": "run serve:ssr",
+           "exec_mode": "cluster",
+           "env": {
+               "NODE_ENV": "production"
+           }
+        }
+    ]
+}

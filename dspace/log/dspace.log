@@ -1,0 +1,595 @@
+2023-09-01 08:05:31,747 INFO  unknown 584d14bd-b47f-4868-b768-3abdf383b12d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:32,485 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 088b5d7c-3a28-4ea6-ab14-2f8eb0eb8ce2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/google.analytics.key] originated from /
+2023-09-01 08:05:32,511 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5a76d7bb-26ae-435b-8d49-15f0bfec54cc org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /
+2023-09-01 08:05:32,600 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f88297af-81fd-4669-a5fe-432773f68735 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:32,623 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e1a3899c-2e9a-48bc-8a82-dafbfe347dac org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/registration.verification.enabled] originated from /
+2023-09-01 08:05:32,628 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1f0cd478-0ea7-4dc8-bf45-52def334549f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:32,673 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f5234e55-454d-44dc-b9f3-a9651b87535c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses] originated from /
+2023-09-01 08:05:32,692 INFO  12526bf0-3245-4e39-96c7-8bba091e86af aa39b406-3ce1-4a0f-b5f0-c2e8899b6ce9 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/sites] originated from /
+2023-09-01 08:05:32,705 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 088b5d7c-3a28-4ea6-ab14-2f8eb0eb8ce2 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An exception has occurred (status:404 exception: No such configuration property: google.analytics.key at: org.dspace.app.rest.repository.ConfigurationRestRepository.findOne(ConfigurationRestRepository.java:58))
+2023-09-01 08:05:32,761 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f4be51c1-0d2f-47a7-a246-aa1ded07225c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-import] originated from /
+2023-09-01 08:05:32,794 WARN  12526bf0-3245-4e39-96c7-8bba091e86af f4be51c1-0d2f-47a7-a246-aa1ded07225c org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 08:05:32,815 INFO  12526bf0-3245-4e39-96c7-8bba091e86af a8b021f5-3afe-474b-9226-fc1e174bdf56 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-export] originated from /
+2023-09-01 08:05:32,821 WARN  12526bf0-3245-4e39-96c7-8bba091e86af a8b021f5-3afe-474b-9226-fc1e174bdf56 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 08:05:33,046 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 0f10c859-0f99-4299-b72c-93249ed37261 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,046 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e0e9c338-e82c-4d21-8a82-8a8f83d5d572 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,059 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1b43fbb6-36b8-4a28-9570-4f84f3ce1040 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,059 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c9b11b77-bd7b-4a40-804c-779c5afb1f7f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,064 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 705ff9ff-3fcc-47d3-b7c4-80558f4e63b5 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,069 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 30a19b3e-9685-4e80-ac59-715844b3bf04 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:33,190 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 01d700d6-e911-4e2f-86a9-a5a9db1a6814 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/systemwidealerts/search/active] originated from /home
+2023-09-01 08:05:33,213 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 399a7d1f-daaa-4d2b-adb7-38335a2c81ed org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:05:33,227 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 45aa3541-1889-4946-abd6-10916a0f4c3b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/statistics] originated from /home
+2023-09-01 08:05:33,237 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 0683966a-099b-4e79-a436-56088ecfdc82 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover] originated from /home
+2023-09-01 08:05:33,280 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 7e7d9a83-9052-4f20-a1fa-0cd35eae5efd org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/communities/search/top] originated from /home
+2023-09-01 08:05:33,311 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 6357b97e-9178-4e4d-96ee-ef705c732ebe org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:05:33,341 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 25b26486-ff38-4945-a4a5-095337b50b92 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:05:33,971 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fc627fd7-b213-4e1a-be82-a0162e63e212 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [POST /server/api/statistics/viewevents] originated from /home
+2023-09-01 08:05:33,974 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 59e01b31-30a8-41de-bf1a-103e1018dc2e org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search] originated from /home
+2023-09-01 08:05:34,103 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fc627fd7-b213-4e1a-be82-a0162e63e212 org.dspace.usage.LoggerUsageEventListener @ anonymous::view_site:site_id=cc214b11-301b-4e32-add0-872790aebc3e
+2023-09-01 08:05:34,142 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e194d721-3386-4897-8b7c-086a42a5a983 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search/objects] originated from /home
+2023-09-01 08:05:34,194 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 81dc25b9-a1f4-4856-84bf-07f0eb055ed1 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.enable] originated from /home
+2023-09-01 08:05:34,246 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 59804bc5-c679-4d95-a152-bacf2dfcf0e6 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.svccontext] originated from /home
+2023-09-01 08:05:38,808 INFO  unknown unknown org.dspace.authenticate.PasswordAuthentication @ anonymous::authenticate:attempting password auth of user=admin.iknow.fkui@gmail.com
+2023-09-01 08:05:38,848 INFO  unknown unknown org.dspace.authenticate.PasswordAuthentication @ admin.iknow.fkui@gmail.com::authenticate:type=PasswordAuthentication
+2023-09-01 08:05:38,849 INFO  unknown unknown org.dspace.eperson.EPersonServiceImpl @ admin.iknow.fkui@gmail.com::update_eperson:eperson_id=98ab268e-93dd-49bb-8d30-8cfd371f79a3
+2023-09-01 08:05:38,849 INFO  unknown unknown org.dspace.app.rest.security.EPersonRestAuthenticationProvider @ admin.iknow.fkui@gmail.com::login:type=explicit
+2023-09-01 08:05:42,347 INFO  unknown unknown org.dspace.eperson.EPersonServiceImpl @ admin.iknow.fkui@gmail.com::update_eperson:eperson_id=98ab268e-93dd-49bb-8d30-8cfd371f79a3
+2023-09-01 08:05:42,514 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f092291a-d2c7-43c9-b307-801820b2c58f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /home
+2023-09-01 08:05:43,322 INFO  unknown 5829e532-0318-4c4d-8379-936625284253 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:43,529 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 70c0f93f-bdff-4e0c-b9c8-3b476d9c4fdf org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/google.analytics.key] originated from /
+2023-09-01 08:05:43,533 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1b896e9a-662d-4f3d-8282-859a32ff7e60 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /
+2023-09-01 08:05:43,549 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 70c0f93f-bdff-4e0c-b9c8-3b476d9c4fdf org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An exception has occurred (status:404 exception: No such configuration property: google.analytics.key at: org.dspace.app.rest.repository.ConfigurationRestRepository.findOne(ConfigurationRestRepository.java:58))
+2023-09-01 08:05:43,576 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b885bf97-04d5-449d-ae1f-b9795ad628a7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/eperson/epersons/98ab268e-93dd-49bb-8d30-8cfd371f79a3] originated from /
+2023-09-01 08:05:43,616 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3eb8b358-df81-486a-b782-531cfca7f780 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:43,799 INFO  12526bf0-3245-4e39-96c7-8bba091e86af daf5541d-f65c-4a8d-a4f3-bae98c68a5ad org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:43,838 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e15cd736-0652-4a60-a57a-1e05f698870b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/registration.verification.enabled] originated from /
+2023-09-01 08:05:43,935 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c2326998-91da-411a-bf14-d8421dd24674 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:05:43,957 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5e4727d7-d4c3-4cf5-8ed5-c5f980de9099 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses] originated from /
+2023-09-01 08:05:43,968 INFO  12526bf0-3245-4e39-96c7-8bba091e86af a0d34dd2-26ec-44ef-9f9c-6e634e8cf4ed org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/sites] originated from /
+2023-09-01 08:05:44,020 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3a126c14-fc1a-4c6a-82eb-a3d9247ae676 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-export] originated from /
+2023-09-01 08:05:44,036 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 6b4e841e-e803-4e8e-b26f-56e331423fc6 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-import] originated from /
+2023-09-01 08:05:44,119 INFO  12526bf0-3245-4e39-96c7-8bba091e86af afa9b807-c083-4443-9620-27a9cbb658df org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:44,124 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 024ef888-4b70-4feb-991f-90934bdfbf18 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:44,135 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f0b4e637-b53b-4f08-9702-fdbb0a21cfb7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:44,243 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3aa69506-ca3d-46d2-bca4-cf3bd99d7519 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:44,257 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 08dfa19d-88bf-49a1-b203-d4061a6132f3 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:05:44,257 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9a81ff6e-9ba2-4ce2-8ec7-85571cf6eef4 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:06:03,254 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3211346d-8078-4b2a-9007-fa3d98e2e0c7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:06:03,257 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 8b7aa884-b9cc-4acc-8400-64c27daa96b2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/systemwidealerts/search/active] originated from /home
+2023-09-01 08:06:03,268 INFO  12526bf0-3245-4e39-96c7-8bba091e86af aec52601-7783-4226-a2bb-3ff4f1dd62bb org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/statistics] originated from /home
+2023-09-01 08:06:03,268 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 768adc3b-d1c0-48e3-a820-74155cef8da8 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover] originated from /home
+2023-09-01 08:06:03,289 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 082a7dfc-ab70-4e2b-bda4-8ce373cbfb37 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/communities/search/top] originated from /home
+2023-09-01 08:06:03,297 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3a026270-e2e9-4132-8574-ef80e744a36c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:06:03,302 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b172ffb9-6c1e-43e2-8859-648fc4609eca org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:06:03,330 ERROR 12526bf0-3245-4e39-96c7-8bba091e86af e194d721-3386-4897-8b7c-086a42a5a983 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An internal read or write operation failed (status:500)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351) ~[catalina.jar:9.0.78]
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:784) ~[catalina.jar:9.0.78]
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:687) ~[catalina.jar:9.0.78]
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386) ~[catalina.jar:9.0.78]
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364) ~[catalina.jar:9.0.78]
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:97) ~[catalina.jar:9.0.78]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638) ~[spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287) ~[spring-core-5.3.27.jar:5.3.27]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2171) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.writeRaw(UTF8JsonGenerator.java:746) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.util.DefaultIndenter.writeIndentation(DefaultIndenter.java:97) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:332) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._writePPFieldName(UTF8JsonGenerator.java:468) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.writeFieldName(UTF8JsonGenerator.java:261) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:694) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.AnyGetterWriter.getAndSerialize(AnyGetterWriter.java:62) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:778) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer.serialize(UnwrappingBeanSerializer.java:138) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at org.springframework.hateoas.EntityModel$MapSuppressingUnwrappingSerializer.serialize(EntityModel.java:246) ~[spring-hateoas-1.5.4.jar:1.5.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanPropertyWriter.serializeAsField(UnwrappingBeanPropertyWriter.java:127) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1518) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007) ~[jackson-databind-2.13.4.2.jar:2.13.4.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.hateoas.server.mvc.RepresentationModelProcessorHandlerMethodReturnValueHandler.handleReturnValue(RepresentationModelProcessorHandlerMethodReturnValueHandler.java:134) ~[spring-hateoas-1.5.4.jar:1.5.4]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) [spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) [spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.dspace.app.rest.filter.DSpaceRequestContextFilter.doFilter(DSpaceRequestContextFilter.java:45) [classes/:7.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.dspace.app.rest.filter.ContentLanguageHeaderResponseFilter.doFilter(ContentLanguageHeaderResponseFilter.java:51) [classes/:7.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:84) [dspace-services-7.6.jar:7.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.dspace.app.rest.security.AnonymousAdditionalAuthorizationFilter.doFilterInternal(AnonymousAdditionalAuthorizationFilter.java:67) [classes/:7.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.dspace.app.rest.security.StatelessAuthenticationFilter.doFilterInternal(StatelessAuthenticationFilter.java:102) [classes/:7.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) [spring-security-web-5.7.8.jar:5.7.8]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) [spring-boot-actuator-2.7.12.jar:2.7.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126) [spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64) [spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101) [spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119) [spring-boot-2.7.12.jar:2.7.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) [spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.78]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.78]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.78]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673) [catalina.jar:9.0.78]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.78]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.78]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) [tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) [tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.78]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.78]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.78]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+	Suppressed: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351) ~[catalina.jar:9.0.78]
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:784) ~[catalina.jar:9.0.78]
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:687) ~[catalina.jar:9.0.78]
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386) ~[catalina.jar:9.0.78]
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364) ~[catalina.jar:9.0.78]
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:97) ~[catalina.jar:9.0.78]
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638) ~[spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287) ~[spring-core-5.3.27.jar:5.3.27]
+		at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2171) ~[jackson-core-2.13.4.jar:2.13.4]
+		at com.fasterxml.jackson.core.json.UTF8JsonGenerator.close(UTF8JsonGenerator.java:1214) ~[jackson-core-2.13.4.jar:2.13.4]
+		at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:460) ~[spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.hateoas.server.mvc.RepresentationModelProcessorHandlerMethodReturnValueHandler.handleReturnValue(RepresentationModelProcessorHandlerMethodReturnValueHandler.java:134) ~[spring-hateoas-1.5.4.jar:1.5.4]
+		at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) [spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) [spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.27.jar:5.3.27]
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.27.jar:5.3.27]
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:4.0.FR]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.27.jar:5.3.27]
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.dspace.app.rest.filter.DSpaceRequestContextFilter.doFilter(DSpaceRequestContextFilter.java:45) [classes/:7.6]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.dspace.app.rest.filter.ContentLanguageHeaderResponseFilter.doFilter(ContentLanguageHeaderResponseFilter.java:51) [classes/:7.6]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:84) [dspace-services-7.6.jar:7.6]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.dspace.app.rest.security.AnonymousAdditionalAuthorizationFilter.doFilterInternal(AnonymousAdditionalAuthorizationFilter.java:67) [classes/:7.6]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.dspace.app.rest.security.StatelessAuthenticationFilter.doFilterInternal(StatelessAuthenticationFilter.java:102) [classes/:7.6]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) [spring-security-web-5.7.8.jar:5.7.8]
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) [spring-boot-actuator-2.7.12.jar:2.7.12]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126) [spring-boot-2.7.12.jar:2.7.12]
+		at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64) [spring-boot-2.7.12.jar:2.7.12]
+		at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101) [spring-boot-2.7.12.jar:2.7.12]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119) [spring-boot-2.7.12.jar:2.7.12]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.27.jar:5.3.27]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) [spring-web-5.3.27.jar:5.3.27]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.78]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.78]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.78]
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673) [catalina.jar:9.0.78]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.78]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.78]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) [tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) [tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.78]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.78]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.78]
+		at java.lang.Thread.run(Thread.java:833) [?:?]
+	Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+		at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+		at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+		at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
+		at sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[?:?]
+		at sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[?:?]
+		at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[?:?]
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1431) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.coyote.Response.doWrite(Response.java:603) ~[tomcat-coyote.jar:9.0.78]
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:338) ~[catalina.jar:9.0.78]
+		... 149 more
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[?:?]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1431) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.coyote.Response.doWrite(Response.java:603) ~[tomcat-coyote.jar:9.0.78]
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:338) ~[catalina.jar:9.0.78]
+	... 199 more
+2023-09-01 08:06:03,368 ERROR unknown unknown org.springframework.boot.web.servlet.support.ErrorPageFilter @ Cannot forward to error page for request [/api/discover/search/objects] as the response has already been committed. As a result, the response may have the wrong status code. If your application is running on WebSphere Application Server you may be able to resolve this problem by setting com.ibm.ws.webcontainer.invokeFlushAfterService to false
+2023-09-01 08:06:03,521 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5ca9af80-d655-429c-9cf4-72abffaa7cfc org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [POST /server/api/statistics/viewevents] originated from /home
+2023-09-01 08:06:03,527 INFO  12526bf0-3245-4e39-96c7-8bba091e86af dd598448-7872-41b3-869e-421f6967d49f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search] originated from /home
+2023-09-01 08:06:03,541 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5ca9af80-d655-429c-9cf4-72abffaa7cfc org.dspace.usage.LoggerUsageEventListener @ admin.iknow.fkui@gmail.com::view_site:site_id=cc214b11-301b-4e32-add0-872790aebc3e
+2023-09-01 08:06:03,561 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d0c9978e-92aa-4fa8-ab42-fc11e97de2b3 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:06:03,621 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2e838873-0317-4ec1-b8a3-24e4609069c6 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.enable] originated from /home
+2023-09-01 08:06:03,627 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b28a5377-8c26-43bd-b135-92cf66cf4e1a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.svccontext] originated from /home
+2023-09-01 08:06:03,671 INFO  12526bf0-3245-4e39-96c7-8bba091e86af ba86f8d0-4bac-42c9-b1af-2a39ad14a4e7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search/objects] originated from /home
+2023-09-01 08:06:03,692 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c966e616-176a-4269-9db6-29713baaf8bb org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/collections/search/findSubmitAuthorized] originated from /home
+2023-09-01 08:06:03,910 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 0ebedcb6-db32-4810-9db8-95d7f675178d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:06:03,935 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 68017b24-189a-42bd-b277-c936cb2b92c4 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:06:04,122 INFO  12526bf0-3245-4e39-96c7-8bba091e86af df889537-2c71-4108-b15c-4b3252808d8c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903/thumbnail] originated from /home
+2023-09-01 08:06:04,513 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 69f6ab9b-6311-4af4-b4df-2594ef46aaed org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/entitytypes/search/findAllByAuthorizedCollection] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:04,515 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 432fc064-6352-4bc9-8d8d-2a183890d4c3 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/entitytypes/search/findAllByAuthorizedExternalSource] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:04,551 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 435fb013-cd51-4e9e-a2f7-a51d927aa086 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:04,744 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fa04fe07-bea3-4584-88eb-97d4a5ae24ac org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search/objects] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:04,767 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b473ab65-dd43-439b-9db1-fac164d5d287 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:05,262 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b772d379-d3bd-4f75-8f10-2fffbc06c336 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/dateIssued] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:05,270 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 333687a2-fba4-47a4-9fec-618c2c1e0f76 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/itemtype] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:05,270 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 54191718-f1bb-404c-b5a1-e75d5957b9a8 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/namedresourcetype] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:05,634 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2f0db409-e550-465c-9775-8f8c159611fe org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/entitytypes/search/findAllByAuthorizedCollection] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:05,706 INFO  12526bf0-3245-4e39-96c7-8bba091e86af ca3abd2f-acc1-4349-b511-094c8ded207b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/entitytypes/search/findAllByAuthorizedExternalSource] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:06,904 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e54de301-2188-46bf-9ea9-1517b0d09eb2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903/accessStatus] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:06,923 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 17dda6da-5cf2-4a57-ba9e-e31b1cc94a23 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:06,987 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 49d4645f-39f3-43e9-970f-683982425134 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,617 INFO  12526bf0-3245-4e39-96c7-8bba091e86af a3dbb94f-a831-40bd-aa22-0437ce66fcad org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/namedresourcetype] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,625 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3051dfc3-cd1b-42a8-a6bf-654f3c22a5b2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/itemtype] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,639 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 158fbf73-ce91-4727-9fed-4e94a4f0bae1 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/facets/dateIssued] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,663 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2fd26ea7-8e66-4bf4-bf88-7df17827cf8c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,708 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 434911a9-437b-49f6-908c-289e4ad96a32 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /mydspace?configuration=workspace
+2023-09-01 08:06:20,764 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2c46c2de-ef8b-4d79-9817-77180c2228ac org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /profile
+2023-09-01 08:06:20,773 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 7733fdb5-2407-4d37-9b38-23596adfc8c7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/researcher-profile.entity-type] originated from /profile
+2023-09-01 08:06:20,775 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 7733fdb5-2407-4d37-9b38-23596adfc8c7 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An exception has occurred (status:404 exception: No such configuration property: researcher-profile.entity-type at: org.dspace.app.rest.repository.ConfigurationRestRepository.findOne(ConfigurationRestRepository.java:58))
+2023-09-01 08:06:20,788 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1a2a260a-ef8f-48d3-ac97-4f9d9834fb5c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/eperson/epersons/98ab268e-93dd-49bb-8d30-8cfd371f79a3/groups] originated from /profile
+2023-09-01 08:06:20,817 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5e64f099-c879-4e72-a486-1c5dcdf874ed org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/submit.type-bind.field] originated from /profile
+2023-09-01 08:06:20,821 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f60463d1-7a2a-4b97-833d-552dfd3486eb org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /profile
+2023-09-01 08:06:29,551 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b030b16a-0c53-45cb-bc94-14ffca07cf7d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:29,564 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2b9aff0a-8662-4610-9380-35574cf2d601 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:29,574 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9cae14af-8d79-45e7-bb5a-64621095be32 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:29,614 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 75adf538-4faf-4f10-9e17-28bd67959533 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/subscriptions/search/findByEPerson] originated from /subscriptions
+2023-09-01 08:06:38,393 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 7ef1c327-8ce4-498e-9242-09d5f0bcc09f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /subscriptions
+2023-09-01 08:06:38,414 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 7cbf8072-03f7-47e4-9dc3-7f5a9fff4261 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /subscriptions
+2023-09-01 08:06:38,463 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c5e60f26-d248-47e1-b305-14e7f5d784fc org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /profile
+2023-09-01 08:06:44,995 INFO  12526bf0-3245-4e39-96c7-8bba091e86af bf9d3490-bcf7-44d5-a728-08f7406bf4b9 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:45,019 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1e1a6a28-aa08-4085-a8c0-21223d987d0c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:45,031 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d9a477f3-f479-4d00-9dd8-580590b9f961 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /profile
+2023-09-01 08:06:45,098 INFO  12526bf0-3245-4e39-96c7-8bba091e86af ab882f78-3806-41a3-9693-cd622b15c970 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/systemwidealerts] originated from /admin/system-wide-alert
+2023-09-01 08:07:59,733 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d4dc015a-db2a-42f6-bee6-a5be6c0a1eb0 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /admin/system-wide-alert
+2023-09-01 08:07:59,752 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d27dc6e1-7ed6-4886-8d14-7022ddc1e498 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /admin/system-wide-alert
+2023-09-01 08:07:59,801 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 21a0d0ef-4f7d-4f89-b95d-e34ed917db4b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [POST /server/api/statistics/viewevents] originated from /home
+2023-09-01 08:07:59,807 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 21a0d0ef-4f7d-4f89-b95d-e34ed917db4b org.dspace.usage.LoggerUsageEventListener @ admin.iknow.fkui@gmail.com::view_site:site_id=cc214b11-301b-4e32-add0-872790aebc3e
+2023-09-01 08:07:59,820 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 58ec1b98-27ba-48b7-80ff-457e818dcc40 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903] originated from /home
+2023-09-01 08:08:40,904 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 20a49efa-7f33-4fee-be1c-6146f654fcf3 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:08:40,922 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9f521906-83cd-4ae0-807a-527e204d90df org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:08:40,949 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f67b2d67-4bee-4c5a-87dc-3c939d05efef org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /home
+2023-09-01 08:08:41,006 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 69492815-2ffb-45d1-84e8-79c153979a2e org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/statistics/usagereports/search/object] originated from /statistics
+2023-09-01 08:08:41,249 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 6a21de05-9caf-4d25-a9fe-a5e94f56261d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/dso/find] originated from /statistics
+2023-09-01 08:08:41,327 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 8add7a67-e06c-485f-b809-75721a46ae0e org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903] originated from /statistics
+2023-09-01 08:08:46,205 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 707baba6-3541-418b-9906-01768c798aa7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /statistics
+2023-09-01 08:08:46,220 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 8738fc0c-9fc2-4175-9542-71dc57c07812 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /statistics
+2023-09-01 08:08:46,273 INFO  12526bf0-3245-4e39-96c7-8bba091e86af ef911888-596d-400a-876d-33319b2b0b35 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/communities/search/top] originated from /community-list
+2023-09-01 08:08:51,428 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 584e8426-abfe-46ed-8d62-48337d9047f7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /community-list
+2023-09-01 08:08:51,442 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 382e3e9e-8001-4fb3-9988-ac7bf621afc0 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /community-list
+2023-09-01 08:08:51,456 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 568716fa-a312-4dff-9ff3-51a1ed902f34 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /community-list
+2023-09-01 08:08:51,506 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 86a30768-73ae-4efa-ae95-6f7dc9e3cb2a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses/author/entries] originated from /browse/author
+2023-09-01 08:08:51,537 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 86a30768-73ae-4efa-ae95-6f7dc9e3cb2a org.dspace.browse.BrowseEngine @ admin.iknow.fkui@gmail.com::browse_by_value:focus=null
+2023-09-01 08:08:57,239 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 4eb85a5c-901e-4b35-8830-5846999bcac3 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /browse/author
+2023-09-01 08:08:57,297 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d78d5f66-f1b4-461d-9401-c7a1b8b8107b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses/subject/entries] originated from /browse/subject
+2023-09-01 08:08:57,299 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d78d5f66-f1b4-461d-9401-c7a1b8b8107b org.dspace.browse.BrowseEngine @ admin.iknow.fkui@gmail.com::browse_by_value:focus=null
+2023-09-01 08:09:10,166 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 2591d62f-f3f8-4db4-ba5a-8996020cc185 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /browse/subject
+2023-09-01 08:09:10,206 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b19b9dd1-0f40-499e-b92f-71275672541e org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /browse/subject
+2023-09-01 08:09:10,245 INFO  12526bf0-3245-4e39-96c7-8bba091e86af a74a6255-c0dd-4fda-b40f-7482ce33a9bb org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/plugin.named.org.dspace.curate.CurationTask] originated from /admin/curation-tasks
+2023-09-01 08:33:42,686 INFO  unknown unknown org.dspace.eperson.EPersonServiceImpl @ admin.iknow.fkui@gmail.com::update_eperson:eperson_id=98ab268e-93dd-49bb-8d30-8cfd371f79a3
+2023-09-01 08:33:42,686 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f4f1506f-5627-41fd-897e-c7b97190ad43 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /admin/curation-tasks
+2023-09-01 08:35:19,301 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f4d0cc40-1fe8-4039-876f-e9ed99eb0c50 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/sites] originated from /admin/curation-tasks
+2023-09-01 08:35:21,264 INFO  unknown 63bfdad9-2f84-4af6-a172-e6899c22d23b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:35:21,395 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 34bd7882-67ad-4433-b14e-5a2f84ead4c9 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/google.analytics.key] originated from /
+2023-09-01 08:35:21,403 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 14d9c186-63dc-4910-b213-da303805fbf1 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /
+2023-09-01 08:35:21,471 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 98d4e04c-3cb4-4726-bba5-cbc8a445bf34 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:35:21,477 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 29788ffa-9e9c-42d3-8445-645b1690ff48 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/registration.verification.enabled] originated from /
+2023-09-01 08:35:21,529 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 34bd7882-67ad-4433-b14e-5a2f84ead4c9 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An exception has occurred (status:404 exception: No such configuration property: google.analytics.key at: org.dspace.app.rest.repository.ConfigurationRestRepository.findOne(ConfigurationRestRepository.java:58))
+2023-09-01 08:35:21,855 INFO  12526bf0-3245-4e39-96c7-8bba091e86af b4474f6a-255c-4bb3-817a-89d37e6aa558 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:35:21,880 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d7e25745-77b4-496b-8c47-cdf83b994960 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 08:35:21,920 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f6460d76-1de5-4bed-aa3a-9b1e11d497e0 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses] originated from /
+2023-09-01 08:35:21,939 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 11585223-ef1d-4283-b60d-646e64c98e4a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/sites] originated from /
+2023-09-01 08:35:22,089 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 92bb9bd4-fbd4-476f-b806-f08ef319d1ce org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-export] originated from /
+2023-09-01 08:35:22,122 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1d5c9cae-84d6-4d9d-bbfc-47d070fdfec5 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-import] originated from /
+2023-09-01 08:35:22,123 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 92bb9bd4-fbd4-476f-b806-f08ef319d1ce org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 08:35:22,126 WARN  12526bf0-3245-4e39-96c7-8bba091e86af 1d5c9cae-84d6-4d9d-bbfc-47d070fdfec5 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 08:35:22,338 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 7a08e47e-2871-4433-8f0f-00ea8f1c7ddb org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,342 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3c8702a3-7e4b-40cd-9ca2-b0a4e06b6494 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,354 INFO  12526bf0-3245-4e39-96c7-8bba091e86af dd640cf5-b53a-4451-a916-8611459c3df8 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,386 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 8e063777-3f54-40cd-81f4-e36a369f2be4 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,399 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 08b6b061-ac1a-4039-9057-324262910fa7 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,402 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 49dbab43-d53a-47eb-862d-0087fc63ef41 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 08:35:22,716 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 8db9030e-c2c3-4bbe-91a3-a36d303cf074 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/systemwidealerts/search/active] originated from /home
+2023-09-01 08:35:22,769 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c8f3ec30-7a7e-4fa6-93a3-bd228ac298b5 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:35:22,851 INFO  12526bf0-3245-4e39-96c7-8bba091e86af de1e79d8-7d77-4544-a424-2b62d9d5cf13 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/statistics] originated from /home
+2023-09-01 08:35:22,854 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 93378ddf-cfa7-4354-974c-d159ba24e8ab org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover] originated from /home
+2023-09-01 08:35:22,957 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fa227b26-5932-4b00-b27b-1ac42e7eaafa org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/communities/search/top] originated from /home
+2023-09-01 08:35:23,070 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 30b7950f-7c8d-45d1-97eb-221df0920587 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:35:23,071 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 931c0b88-fcc9-4755-8efa-303920f8d068 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 08:35:23,443 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1d93ac46-7424-40ce-a91c-4acf789d5793 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [POST /server/api/statistics/viewevents] originated from /home
+2023-09-01 08:35:23,453 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 0364fab4-20a0-4156-9b54-8002ec026973 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search] originated from /home
+2023-09-01 08:35:23,524 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 1d93ac46-7424-40ce-a91c-4acf789d5793 org.dspace.usage.LoggerUsageEventListener @ anonymous::view_site:site_id=cc214b11-301b-4e32-add0-872790aebc3e
+2023-09-01 08:35:23,534 INFO  12526bf0-3245-4e39-96c7-8bba091e86af eb6ee517-7d04-4b32-b2cc-a4db87a4b2f1 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.enable] originated from /home
+2023-09-01 08:35:23,546 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3473a466-ab8e-48db-8197-7115043cfbbe org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.svccontext] originated from /home
+2023-09-01 08:35:23,582 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 03b31c7e-47a4-4c26-a5df-a1aec446572e org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search/objects] originated from /home
+2023-09-01 08:35:23,910 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3b146efb-083b-4242-bf5d-e071385a8eec org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903/thumbnail] originated from /home
+2023-09-01 10:47:02,873 INFO  unknown edf1bb42-f5fd-4c09-bf3d-e0b317937a1a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 10:47:03,759 INFO  12526bf0-3245-4e39-96c7-8bba091e86af c378d06f-df75-4b2c-a8ad-2a87c57e0f1a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/google.analytics.key] originated from /
+2023-09-01 10:47:03,794 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d84d66e6-0f03-446b-a0ff-93d39218cae1 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authn/status] originated from /
+2023-09-01 10:47:03,917 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 0c40fc95-3fd5-4498-a024-4c54d0a613ce org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 10:47:03,928 INFO  12526bf0-3245-4e39-96c7-8bba091e86af dfb635a9-9f5e-423d-ba45-58bd3c924a9b org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/registration.verification.enabled] originated from /
+2023-09-01 10:47:03,941 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 5c0dadd9-2e24-433a-bd23-b1da1145067d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api] originated from /
+2023-09-01 10:47:03,983 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 51d23d2a-b714-4d0f-9efd-cabc4f979b15 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/browses] originated from /
+2023-09-01 10:47:03,989 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fa049cc1-5eb7-4bd3-a979-c7b6af7b6a73 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/sites] originated from /
+2023-09-01 10:47:04,054 INFO  12526bf0-3245-4e39-96c7-8bba091e86af cdbda871-b62a-4a21-aaa5-7aac0613f977 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-export] originated from /
+2023-09-01 10:47:04,073 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e674b426-aebb-4a3e-9777-86b8b6c3ea1f org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/scripts/metadata-import] originated from /
+2023-09-01 10:47:04,106 WARN  12526bf0-3245-4e39-96c7-8bba091e86af c378d06f-df75-4b2c-a8ad-2a87c57e0f1a org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ An exception has occurred (status:404 exception: No such configuration property: google.analytics.key at: org.dspace.app.rest.repository.ConfigurationRestRepository.findOne(ConfigurationRestRepository.java:58))
+2023-09-01 10:47:04,131 WARN  12526bf0-3245-4e39-96c7-8bba091e86af cdbda871-b62a-4a21-aaa5-7aac0613f977 org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 10:47:04,163 WARN  12526bf0-3245-4e39-96c7-8bba091e86af e674b426-aebb-4a3e-9777-86b8b6c3ea1f org.dspace.app.rest.exception.DSpaceApiExceptionControllerAdvice @ Authentication is required (status:401 exception: Access is denied at: org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:73))
+2023-09-01 10:47:04,490 INFO  12526bf0-3245-4e39-96c7-8bba091e86af ef5c8c64-3d28-4f8d-897e-3314f0ef2fc0 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,490 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 182761ce-7d7f-4ff0-b60e-2b9b1007bcf4 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,494 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 719e28a5-e388-4c3b-ae65-a06562e82b9c org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,496 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 51732438-30c9-482b-9a16-2ccf98074048 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,502 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 76fd4e21-16e6-47bf-b62e-59650bd0fd24 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,503 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9207e807-46da-46b4-a455-bfa8a65c9e58 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /
+2023-09-01 10:47:04,646 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d3fa35ca-38ec-4501-833f-fb8ff580b697 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/system/systemwidealerts/search/active] originated from /home
+2023-09-01 10:47:04,689 INFO  12526bf0-3245-4e39-96c7-8bba091e86af fc4147b7-886f-4a5a-8c7c-61614074148d org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 10:47:04,708 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9359c935-f62f-4f9a-b61c-4d0d2c341faa org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/statistics] originated from /home
+2023-09-01 10:47:04,718 INFO  12526bf0-3245-4e39-96c7-8bba091e86af e1f376f4-965f-4bc7-9506-1fefabdd7090 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover] originated from /home
+2023-09-01 10:47:04,776 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 23a983a9-8b06-4789-be66-4831dbcbcd96 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/communities/search/top] originated from /home
+2023-09-01 10:47:04,917 INFO  12526bf0-3245-4e39-96c7-8bba091e86af f99e6728-198f-4ede-a205-3a9b9262f8f2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 10:47:04,951 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 63339324-a1c6-4f4a-a45b-d22bb7e27038 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/authz/authorizations/search/object] originated from /home
+2023-09-01 10:47:05,260 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 6e0c42ff-cac4-42e8-aff4-d5c5c9a280f2 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [POST /server/api/statistics/viewevents] originated from /home
+2023-09-01 10:47:05,326 INFO  12526bf0-3245-4e39-96c7-8bba091e86af d1af50bf-0459-42ce-ac89-f177ffb15038 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search] originated from /home
+2023-09-01 10:47:05,441 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 6e0c42ff-cac4-42e8-aff4-d5c5c9a280f2 org.dspace.usage.LoggerUsageEventListener @ anonymous::view_site:site_id=cc214b11-301b-4e32-add0-872790aebc3e
+2023-09-01 10:47:05,698 INFO  12526bf0-3245-4e39-96c7-8bba091e86af cbcee496-410f-46be-b57c-3ac34e235818 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/discover/search/objects] originated from /home
+2023-09-01 10:47:05,893 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 9d01d409-bb22-4c05-9e06-2d5162f77046 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.enable] originated from /home
+2023-09-01 10:47:05,926 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 4086b716-975c-423e-b9ae-de6b59b6723a org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/config/properties/websvc.opensearch.svccontext] originated from /home
+2023-09-01 10:47:31,444 INFO  12526bf0-3245-4e39-96c7-8bba091e86af 3aea9794-4e85-474a-b08d-11acca44e230 org.dspace.app.rest.utils.DSpaceAPIRequestLoggingFilter @ Before request [GET /server/api/core/items/5e07d314-1fa3-4c4b-9d7d-ee77f475a903/thumbnail] originated from /home
